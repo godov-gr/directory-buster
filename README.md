@@ -15,19 +15,15 @@ This script is a directory brute-forcing tool that helps find accessible directo
 - `requests` library
 
 Install the required library with:
-
-```bash
 pip install requests
 
 Usage
-Basic Syntax
 
+Basic Syntax:
 python main.py <base_url> [options]
 
-Examples
-With Wordlist File
-
+With Wordlist File"
 python main.py https://example.com -w wordlist.txt -t 20
-Using Wordlist via Stdin
 
+Using Wordlist via Stdin:
 cat wordlist.txt | python main.py https://example.com
